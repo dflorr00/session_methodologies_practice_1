@@ -10,9 +10,10 @@ import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
 
 public class LucaUtils {
-
+	//Variables globales
 	private static final String HEX_PATTERN = "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$";
-
+	
+	//Metodos de la clase
 	public static boolean isNullOrEmpty(String validateString) {
 		if (validateString == null || validateString.trim().isEmpty()) {
 			return true;
